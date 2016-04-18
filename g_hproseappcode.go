@@ -179,7 +179,7 @@ import (
 	"reflect"
 	"strings"
 	{{timePkg}}
-	"github.com/astaxie/beego/orm"
+	"github.com/EnjoyOnlineLtd/beego/orm"
 )
 
 {{modelStruct}}

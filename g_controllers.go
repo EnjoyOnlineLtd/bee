@@ -69,7 +69,7 @@ func generateController(cname, crupath string) {
 var controllerTpl = `package {{packageName}}
 
 import (
-	"github.com/astaxie/beego"
+	"github.com/EnjoyOnlineLtd/beego"
 )
 
 // operations for {{controllerName}}
@@ -151,7 +151,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/astaxie/beego"
+	"github.com/EnjoyOnlineLtd/beego"
 )
 
 // oprations for {{controllerName}}
